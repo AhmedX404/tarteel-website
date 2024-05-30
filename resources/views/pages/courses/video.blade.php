@@ -8,9 +8,9 @@
     <div class="d-flex align-items-center justify-content-center">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="container">
+                <div class="container" style="width:100%;height:760px">
                     @if($lessonVideo->viemo != 'no_data')
-                        <video class="imViedo" id="imViedo2" controls="" disablePictureInPicture crossorigin="" playsinline=""><source src="{{$lessonVideo->viemo}}" type="application/x-mpegURL" /></video>
+                        <video  class="imViedo" id="imViedo2" controls="" disablePictureInPicture crossorigin="" playsinline=""><source src="{{$lessonVideo->viemo}}" type="application/x-mpegURL" /></video>
                     @elseif($lessonVideo->dyntub != 'no_data')
                         <video class="imViedo" id="imViedo2" controls="" disablePictureInPicture crossorigin="" playsinline=""><source src="{{$lessonVideo->viemo}}" type="application/x-mpegURL" /></video>
                     @else

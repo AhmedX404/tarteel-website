@@ -35,7 +35,7 @@
                                     </div>
                                 </div>
                                 <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
+                                    <button draggable="false" type="submit" class="btn btn-primary">تسجيل الدخول</button>
                                 </div>
                             </form>
                         </div>

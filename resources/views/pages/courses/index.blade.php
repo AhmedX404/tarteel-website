@@ -7,7 +7,7 @@
                 <div class="container">
                     @foreach($courses['rows'] as $course)
                         <div class="card m-3 border-0" style="width: 24rem;">
-                            <a href="{{route('course.data',$course['tax_tid'])}}">
+                            <a draggable="false" href="{{route('course.data',$course['tax_tid'])}}">
 
                                 <img class="card-img-top"  src="{{ $course['tax_image'] ?? 'default-image-url' }}" alt="Course image">
                                 <div class="card-body">
