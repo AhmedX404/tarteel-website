@@ -14,7 +14,7 @@
                                         <a href="{{route('lesson.data',$lesson->id)}}" style="text-decoration: none;">
                                             <h5 class="card-title text-center text-black">{{ $lesson->name }}</h5><br>
                                         </a>
-                                        <a href="{{route('lesson.data',$lesson->id)}}" class="btn btn-primary" style="width: 100%">أختر</a>
+                                        <a draggable="false" href="{{route('lesson.data',$lesson->id)}}" class="btn btn-primary" style="width: 100%">أختر</a>
                                     </div>
                                 </div>
                             </a>
