@@ -16,7 +16,7 @@
                 </div><br>
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <a class="btn btn-secondary btn-lg" style="width: 60%" href="{{route('courses')}}">دوراتي </a>
+                        <a draggable="false" class="btn btn-secondary btn-lg" style="width: 60%" href="{{route('courses')}}">دوراتي </a>
                     </div>
                 </div><br>
                 <div class="row">

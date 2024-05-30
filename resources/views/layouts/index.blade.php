@@ -79,7 +79,9 @@
             });
         });
     });
-
+    document.querySelectorAll('button').forEach(button => {
+        button.setAttribute('draggable', 'false');
+    });
 </script>
 
 <script>
