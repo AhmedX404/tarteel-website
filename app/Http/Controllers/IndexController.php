@@ -10,4 +10,8 @@ class IndexController extends Controller
     {
         return view('website.layouts.index');
     }
+    public function arabic()
+    {
+        return view('website.layouts.index_ar');
+    }
 }
